@@ -18,3 +18,7 @@ Host someinternalhost
 
 Host someinternalhost
 	ProxyJump bastion
+
+# Домашнее задание 3. cloud-testapp
+testapp_IP = 51.250.80.54
+testapp_port = 9292
