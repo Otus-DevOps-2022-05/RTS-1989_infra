@@ -1,7 +1,4 @@
 .github/get-pip.py
-packer/variables.json
-packer/app.json
-packer/db.json
 terraform/terraform.json
 terraform/terraform.tfvars
 terraform/terraform.tfstate
