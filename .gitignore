@@ -1,0 +1,8 @@
+packer/variables.json
+packer/app.json
+packer/db.json
+terraform/terraform.json
+terraform/terraform.tfvars
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform*
