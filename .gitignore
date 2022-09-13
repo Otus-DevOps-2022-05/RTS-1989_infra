@@ -6,3 +6,5 @@ terraform/terraform.tfstate.backup
 terraform/.terraform*
 terraform/prod/terraform.tfvars
 terraform/stage/terraform.tfvars
+terraform/main.tf
+terraform/output.tf
