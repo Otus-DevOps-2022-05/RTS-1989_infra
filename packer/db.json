@@ -1,9 +1,8 @@
-
 {
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "{{user `service_account_key_file`}}",
+            "service_account_key_file": "key.json",
             "folder_id": "{{user `folder_id`}}",
             "zone": "ru-central1-a",
             "source_image_family": "{{user `source_image_family`}}",
@@ -19,9 +18,8 @@
     ],
     "provisioners": [
         {
-            "type": "shell",
-            "script": "scripts/install_mongodb.sh",
-            "execute_command": "sudo {{.Path}}"
+            "type": "ansible",
+            "playbook_file": "./ansible/packer_db.yml"
         }
     ]
 }
