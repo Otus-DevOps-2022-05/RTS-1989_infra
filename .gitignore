@@ -1,3 +1,4 @@
+*.retry
 .github/get-pip.py
 terraform/terraform.json
 terraform/terraform.tfvars
@@ -8,3 +9,10 @@ terraform/prod/terraform.tfvars
 terraform/stage/terraform.tfvars
 terraform/main.tf
 terraform/output.tf
+ansible/reddit_app2.yml.save
+ansible/vars/
+packer/variables.json
+jdauphant.nginx
+ansible/vault.key
+reddit_app2.yml.save
+ansible/jdauphant.nginx/
