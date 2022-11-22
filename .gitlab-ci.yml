@@ -10,7 +10,7 @@ variables:
 
 before_script:
   - cd reddit
-  - gem uninstall bundler
+  - gem uninstall -i /usr/local/lib/ruby/gems/2.4.0 bundler
   - gem install bundler
   - bundle install
 
