@@ -9,8 +9,8 @@ variables:
   DATABASE_URL: 'mongodb://mongo/user_posts'
 
 before_script:
+  - sudo apt-get -y install libgmp-dev
   - cd reddit
-  - gem install bundler
   - bundle install
 
 build_job:
