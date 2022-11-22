@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'ruby-dev'
+gem 'ruby_dev'
 gem 'sinatra', '~> 2.0.1'
 gem 'haml'
 gem 'bson_ext'
