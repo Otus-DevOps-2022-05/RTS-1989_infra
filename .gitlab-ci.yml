@@ -10,6 +10,8 @@ variables:
 
 before_script:
   - cd reddit
+  - gem install bundler
+  - gem install bcrypt
   - bundle install
 
 build_job:
