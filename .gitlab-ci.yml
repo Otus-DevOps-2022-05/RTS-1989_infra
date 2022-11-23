@@ -13,6 +13,7 @@ before_script:
   - gem install bcrypt
   - gem install bson_ext
   - gem install puma -v 3.10.0
+  - gem install bson -v 4.2.2
   - bundle install
 
 build_job:
