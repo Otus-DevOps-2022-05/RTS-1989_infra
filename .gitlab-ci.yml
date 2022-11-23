@@ -14,6 +14,7 @@ before_script:
   - gem install bson_ext
   - gem install puma -v 3.10.0
   - gem install bson -v 4.2.2
+  - gem install json -v 2.1.0
   - bundle install
 
 build_job:
