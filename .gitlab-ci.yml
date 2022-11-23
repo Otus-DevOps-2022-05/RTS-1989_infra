@@ -12,6 +12,7 @@ before_script:
   - cd reddit
   - gem install bcrypt
   - gem install bson_ext
+  - gem install json
   - bundle install
 
 build_job:
