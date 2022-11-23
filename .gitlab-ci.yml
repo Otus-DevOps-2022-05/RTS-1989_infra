@@ -12,7 +12,7 @@ before_script:
   - cd reddit
   - gem install bcrypt
   - gem install bson_ext
-#  - gem install puma
+  - gem install puma -v 3.10.0
   - bundle install
 
 build_job:
