@@ -16,3 +16,10 @@ jdauphant.nginx
 ansible/vault.key
 reddit_app2.yml.save
 ansible/jdauphant.nginx/
+# Vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
